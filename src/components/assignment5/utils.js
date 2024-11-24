@@ -54,14 +54,6 @@ function groupByAirport(data) {
     return result
 }
 
-function groupByCity(data) {
-    //TODO:
-    //1.Complete this function by refering to the groupByAirport and groupByAirline;
-    //  it returns an array of objects; the Count of each object represents the number
-    //  of routes related to the city.
-    //Hint: you need to use d.DestCity and d.SourceCity;
-}
-
 export {
-    groupByAirline, groupByAirport, groupByCity
+    groupByAirline, groupByAirport
 }
